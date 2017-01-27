@@ -1,0 +1,57 @@
+[{
+    "link": "#",
+    "orientation": "landscape",
+    "img": "img/slider__img_01.jpg",
+    "alt": "gallery image 01",
+    "title": "title 01",
+    "rate": 10
+}, {
+    "link": "#",
+    "orientation": "landscape",
+    "img": "img/slider__img_02.jpg",
+    "alt": "gallery image 02",
+    "title": "title 02",
+    "rate": 20
+}, {
+    "link": "#",
+    "orientation": "landscape",
+    "img": "img/slider__img_03.jpg",
+    "alt": "gallery image 03",
+    "title": "title 03",
+    "rate": 30
+}, {
+    "link": "#",
+    "orientation": "landscape",
+    "img": "img/slider__img_04.jpg",
+    "alt": "gallery image 04",
+    "title": "title 04",
+    "rate": 40
+}, {
+    "link": "#",
+    "orientation": "landscape",
+    "img": "img/slider__img_02.jpg",
+    "alt": "gallery image 05",
+    "title": "title 05",
+    "rate": 50
+}, {
+    "link": "#",
+    "orientation": "landscape",
+    "img": "img/slider__img_03.jpg",
+    "alt": "gallery image 06",
+    "title": "title 06",
+    "rate": 60
+}, {
+    "link": "#",
+    "orientation": "landscape",
+    "img": "img/slider__img_04.jpg",
+    "alt": "gallery image 07",
+    "title": "title 07",
+    "rate": 70
+}, {
+    "link": "#",
+    "orientation": "landscape",
+    "img": "img/slider__img_01.jpg",
+    "alt": "gallery image 08",
+    "title": "title 08",
+    "rate": 80
+}]

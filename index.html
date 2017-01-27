@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Project JS</title>
+		<meta name="description" content="#">
+		<meta name="keywords" content="#">
+		<meta name="author" content="Alex G">
+		<link rel="stylesheet" href="css/vendor.css">
+		<link rel="stylesheet" href="css/style.min.css">
+	</head>
+	<body>
+		<div class="page-wrapper">
+			<header class="header"></header>
+			<main class="main">
+				<section class="gallery">
+					<div class="container">
+						<div class="row">
+							<h2 class="gallery__title">Gallery</h2>
+							<input class="gallery__btn" id="gallery__btn" type="checkbox">
+							<label class="gallery__btn-label" for="gallery__btn"><span></span></label>
+							<div class="filter">
+								<h3 class="filter__title">Filter</h3>
+								<div class="filter__btn-list">
+									<button class="filter__btn filter__btn_selected" id="filter_all">All</button>
+									<button class="filter__btn" id="filter_one">One</button>
+									<button class="filter__btn" id="filter_two">Two</button>
+									<button class="filter__btn" id="filter_three">Three</button>
+									<button class="filter__btn" id="filter_four">Four</button>
+								</div>
+							</div>
+							<ul class="gallery__list cf"></ul>
+						</div>
+					</div>
+				</section>
+			</main>
+			<div class="empty"></div>
+		</div>
+		<footer class="footer"></footer>
+		
+		<template id="gallery__template">
+			<li class="gallery__item">
+				<div class="gallery__item-inner"><a class="gallery__link"></a><img class="gallery__img">
+					<div class="gallery__overlay">
+						<h3 class="gallery__overlay-title"></h3>
+					</div>
+				</div>
+			</li>
+		</template>
+		<script src="js/script.js"></script>
+	</body>
+</html>
